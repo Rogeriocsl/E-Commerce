@@ -1,0 +1,16 @@
+/*Site*/
+
+
+body{
+	position: relative;
+	background: url('img/back2.jpg')no-repeat center center fixed;
+	background-size: cover;
+	font-size: 15px;
+  	color: #666;
+  	font-family: 'Roboto', sans-serif;
+}
+
+footer p{
+	color: white;
+}
+
