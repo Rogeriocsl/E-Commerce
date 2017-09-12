@@ -1,4 +1,13 @@
-.carousel slide{
 
 
+#myCarousel{
+	width: 60%;
+	margin-left: 50px;
+	margin-bottom: 50px;
+
+}
+
+.titulo{
+	background: none;
+	color: white;
 }
