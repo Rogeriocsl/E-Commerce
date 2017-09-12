@@ -16,3 +16,28 @@
 .fonte{
 	font: Carta Magna;
 }
+
+#imgti{
+	width: 100%;
+	height: 100%;
+
+}
+#texto{
+	position: relative;
+	margin-top: -21px;
+	background-color: green;
+	opacity: 0.8;
+
+	
+}
+
+.compra{
+	background: green;
+	border:none;
+	float: right;
+}
+
+.desconto{
+	color: #fff;
+}
+

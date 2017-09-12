@@ -16,11 +16,14 @@
  
 
   <!--bootstrap font-->
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
   <!--custom css-->
   <link rel="stylesheet" type="text/css" href="css/backgroud.css">
   <link rel="stylesheet" type="text/css" href="css/prod.css">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/slides.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+
 
 
 </head>
@@ -29,25 +32,26 @@
     <nav>
       <div class="nav-fostrap">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="javascript:void(0)">Promoção<span class="arrow-down"></span></a>
+          <li><a href="">Dx Games</a></li>
+          <li><a href="javascript:void(0)">Loja<span class="arrow-down"></span></a>
             <ul class="dropdown">
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+              <li><a href="">1</a></li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">4</a></li>
             </ul>
           </li>
-          <li><a href="javascript:void(0)" >Categorias<span class="arrow-down"></span></a>
+          <li><a href="javascript:void(0)">Sobre<span class="arrow-down"></span></a>
             <ul class="dropdown">
-              <li><a href="">Tiro</a></li>
-              <li><a href="">Corrida</a></li>
-            </ul>
-            <li><a href="historia.html">Historia</a>
-          </li>
-          <li><a href="javascript:void(0)" >Contatos<span class="arrow-down"></span></a>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="">Suporte</a></li>
+              <li><a href="historia.html">Historia</a></li>
+            </ul>            
+          <li><a href="javascript:void(0)" >Fazer Login<span class="arrow-down"></span></a>
             <ul class="dropdown">
-              <li><a href="contato.html">Fale Conosco</a></li>
+              <li><a href="">Criar Conta</a></li>
+              <li><a href="">Login</a></li>
+
             </ul>
           </li>
           <li><a href=""></a></li>
@@ -69,10 +73,13 @@
 
 <!-- Carousel
 ================================================== -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="container" align="center">
+  <h4 align="left" class="titulo">NOVIDADES</h4>
+
+  <div id="myCarousel"  class="carousel slide" data-ride="carousel">
 
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <ol class="carousel-indicators" >
     
       <li data-target="" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -82,7 +89,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div class="carousel-inner" >
       <div class="item active">
         <img src="slides/slides0.png" style="width:100%;">
       </div>
@@ -109,53 +116,66 @@
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
-</div>
 
+  </div>
+
+</div>
 
 
  <!--conteudo-->
 <div class="container">
+  <h4 class="subtitulo">ÚLTIMAS PROMOÇÕES</h4>
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fluid">
         </div>
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe container-fluid">
-                <img src="css/img/index1.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index1.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:199,99</del><button class="compra">R$:99,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle container-fluid">
-                <img src="css/img/index2.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index2.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:329,99</del><button class="compra">R$:99,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe container-fluid">
-                <img src="css/img/index3.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index3.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:359,99</del><button class="compra">R$:189,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
-                <img src="css/img/index4.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index4.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:259,99</del><button class="compra">R$:159,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray container-fluid">
-                <img src="css/img/index5.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index5.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:399,99</del><button class="compra">R$:199,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
-                <img src="css/img/index6.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index6.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:350,00</del><button class="compra">R$:199,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray container-fluid">
-                <img src="css/img/index7.jpg" class="img-responsive">
+                <img id="imgti" src="css/img/index7.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:175,99</del><button class="compra">R$:89,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
-                <img src="css/img/index8.jpg" class="img-responsive">
+               <img id="imgti" src="css/img/index8.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:399,99</del><button class="compra">R$:259,99</button></td></div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation container-fluid">
-                <img src="css/img/index9.jpg" class="img-responsive">
+               <img id="imgti" src="css/img/index9.jpg" class="img-responsive">
+                <div  id="texto"><td><del class="desconto">R$:99,99</del><button class="compra">R$:59,99</button></td></div>
             </div>
         </div>
+
     </div>
+
 
 
   <!-- Footer -->
