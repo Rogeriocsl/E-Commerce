@@ -15,8 +15,15 @@
 }
 /*==========================*/
 
+<<<<<<< HEAD
 
 /*css produtos em promoção*/
+=======
+.fonte{
+	font: Carta Magna;
+}
+
+>>>>>>> origin/master
 #imgti{
 	width: 100%;
 	height: 100%;
@@ -34,6 +41,7 @@
 .compra{
 	background: green;
 	border:none;
+<<<<<<< HEAD
 	border-radius: 2px;
 	float: right;	
 }
@@ -42,8 +50,16 @@
 	background: orange;
 
 }
+=======
+	float: right;
+}
+
+>>>>>>> origin/master
 .desconto{
 	color: #fff;
 }
 
+<<<<<<< HEAD
 /*==========================*/
+=======
+>>>>>>> origin/master
