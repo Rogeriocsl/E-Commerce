@@ -19,16 +19,17 @@ a { text-decoration: none; }
   width: 100%;
 
 }
-
+/*barra*/
 .nav-fostrap {
   display: block;
   margin-bottom: 15px 0;
-  background: #03A9F4;
+  background: #545454;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -o-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
 
 
 
@@ -79,7 +80,7 @@ a { text-decoration: none; }
   position: absolute;
   display: none;
   width: 200px;
-  background: #2980B9;
+  background: #545454;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -107,13 +108,13 @@ a { text-decoration: none; }
 .nav-fostrap li ul.dropdown li:last-child a { border-bottom: none; }
 
 .nav-fostrap li:hover a {
-  background: #2980B9;
+  background: #545454;
   color: #fff !important;
 }
 
 .nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }
 
-.nav-fostrap li ul.dropdown li:hover a { background: rgba(0,0,0, .1); }
+.nav-fostrap li ul.dropdown li:hover a { background: #545454; z-index: 1}
 
 .nav-fostrap li ul.dropdown li:first-child:hover a { border-radius: 0; }
 
@@ -158,7 +159,6 @@ a { text-decoration: none; }
   border: 0;
   border-radius: 0;
   overflow-y: auto;
-  overflow-x: hidden;
   height: 100%;
   z-index: 1;
 
@@ -191,7 +191,7 @@ a { text-decoration: none; }
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #03A9F4;
+  background: #545454;
   padding: 12px 0 0 10px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -240,13 +240,13 @@ a { text-decoration: none; }
 .nav-fostrap li ul.dropdown { position: relative; }
 
 .nav-fostrap li ul.dropdown li a {
-  background: #2980B9 !important;
+  background: #545454 !important;
   border-bottom: none;
   color: #fff !important;
 }
 
 .nav-fostrap li:hover a {
-  background: #03A9F4;
+  background: #545454;
   color: #fff !important;
 }
 

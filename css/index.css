@@ -1,0 +1,13 @@
+.titulo{
+  font-family: 'Acme', sans-serif;
+  	size: 35px;
+	color: white;
+	margin-left: 120px;
+}
+
+.subtitulo{
+  font-family: 'Acme', sans-serif;
+  	size: 35px;
+	color: white;
+	margin-left: 0px;
+}

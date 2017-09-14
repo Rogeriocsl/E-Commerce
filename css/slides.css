@@ -1,9 +1,9 @@
 
 
 #myCarousel{
-	width: 60%;
-	margin-left: 50px;
-	margin-bottom: 50px;
+	width: 80%;
+	margin-top: 0px;	
+	margin-bottom: 25px;
 
 }
 
@@ -11,3 +11,4 @@
 	background: none;
 	color: white;
 }
+
