@@ -1,0 +1,16 @@
+.image {
+  display: block;
+  width: 80%;
+  height: 50%;
+  margin-bottom: 80px
+}
+
+
+.compra{
+  color: black;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+
+}
+
