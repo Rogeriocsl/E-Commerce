@@ -1,16 +1,56 @@
 .image {
   display: block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+/*btn desktop*/
+.btn-responsive{
+	margin-bottom: 3px;
+	color: black;
+
+}
+
+ /*css responsivo site btn*/
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+	margin-right: 55px;
+
+  }
+}
+
+/*css responsivo site btn*/
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+
+  }
+}
+
+/*css produto*/
+div.polaroid {
   width: 80%;
-  height: 50%;
-  margin-bottom: 80px
+  background-color: white;
+  box-shadow: white;
 }
 
-
-.compra{
-  color: black;
-  position: absolute;
-  bottom: 5%;
-  left: 20%;
-
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-family: 'Open Sans', sans-serif;
 }
-
+.desc{
+	color: grey;
+}
+.titulo{
+	font-family: 'Acme', sans-serif;
+  	size: 35px;
+	color: white;
+}
