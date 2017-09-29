@@ -5,19 +5,15 @@
 /*Posição do roda pe*/
 html, body {height:auto;}
 
-.geral {
-    min-height:100%;
-    position:relative;
-    width:800px;
-}
 
 .footer {
-    position:absolute;
+    position:relative;
     bottom:0;
     width:100%;
+    padding: 10px;
+    background-color:grey;
+    margin-top:10px;
+    color: white;
+
 }
 
-.content {overflow:hidden;}
-.aside {width:200px;}
-.fleft {float:left;}
-.fright {float:right;}

@@ -17,8 +17,9 @@
     left: 50%;
     top: -2px;
     margin-left: -25px;
-    background-color: #fff;
     width: 50px;
+    background-color: white;
+    border-radius: 4px;
     text-align: center;
   }
   .hr-or {

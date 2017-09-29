@@ -13,6 +13,7 @@
   <script src="js/menu.js" type="text/javascript"></script>
   <!-- js bootstrap-->
   <script src="source/js/bootstrap.min.js"></script>
+  <script src="js/suporte.js"></script>
  
 
   <!--bootstrap font-->
@@ -22,12 +23,16 @@
   <link rel="stylesheet" type="text/css" href="css/menu.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/rodape.css">
+  <link rel="stylesheet" type="text/css" href="css/suporte.css">
+
   
 
 
 
 </head>
 <body>	
+
 <!--Menu-->
     <nav>
       <div class="nav-fostrap">
@@ -35,10 +40,15 @@
           <li><a href="index.html">Dx Games</a></li>
           <li><a href="javascript:void(0)">Loja<span class="arrow-down"></span></a>
             <ul class="dropdown">
-              <li><a href="">1</a></li>
-              <li><a href="">2</a></li>
-              <li><a href="">3</a></li>
-              <li><a href="">4</a></li>
+              <li><a href="acao.html">Ação</a></li>
+              <li><a href="">Aventura</a></li>
+              <li><a href="">MMO</a></li>
+              <li><a href="">Corrida</a></li>
+              <li><a href="">RPG</a></li>
+              <li><a href="">Tiro</a></li>
+              <li><a href="">Simulação</a></li>
+              <li><a href="">Esportes</a></li>
+              <li><a href="">Estratégia</a></li>
             </ul>
           </li>
           <li><a href="javascript:void(0)">Sobre<span class="arrow-down"></span></a>
@@ -54,9 +64,6 @@
 
             </ul>
           </li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
         </ul>
       </div>
       <div class="nav-bg-fostrap">
@@ -70,49 +77,84 @@
 </div>
 </div>
 
+<!--Faq bootstrap-->
+<div class="container ">
+    <div class="panel-group" id="faqAccordion">
+        <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">Jogos, Software, etc.</a>
+              </h4>
 
-<!-- Submitted suport-->
+            </div>
+            <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">                     
+
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">Compras</a>
+              </h4>
+
+            </div>
+            <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default ">
+            <div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+                 <h4 class="panel-title">
+                    <a href="#" class="ing">A minha conta</a>
+              </h4>
+
+            </div>
+            <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                </div>
+            </div>
+        </div>
+        <div  class="panel panel-default ">
+            <div  class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+                 <h4  class="panel-title">
+                    <a  href="#" class="ing">Trocas</a>
+              </h4>
+
+            </div>
+            <div  id="question3" class="panel-collapse collapse" style="height: 0px;">
+                <div class="panel-body">
+
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!--/panel-group-->
+</div>
+
+
+<br><br>
 <div class="container">
-<div class="row">
-    <div class="col-md-4">
-        <img src="https://cdn1.iconfinder.com/data/icons/softwaredemo/PNG/256x256/Pencil3.png" class="img-responsive center-block" alt="">
-    </div><!--.col -->
-    <div class="col-md-8">
-        <h3 class="titulo">
-            Como a DxGames pode ajuda você ?
-        </h3>
-<!-- NOTE: TB3 form width default is 100%, so they expan to your <div> -->
-        <form name="frmComment" id="frmComment">
-            <label class="subtitulo" for="txtComment">Digite seu email para contato</label>
-            <input type="text" name="commentUser" id="txtComment" class="form-control" placeholder="Digite seu email para contato">
-            <br>
-            
-        </form>
-        <hr>
-        <p>
-            Digite sua Messagem
-        </p>
+<img  src="css/img/suporte.png" class="img-responsive" >
+</div>
 
-        <textarea id="txtCommentHere" class="form-control" rows="3">
-        </textarea>
-        
-        <div id="comment"></div><br>
-        <a href="index.html"><input type="button" value="Enviar" class="btn btn-success"></button></a>
-        
-    </div><!--.col -->
-</div><!--./row -->
-</div><!--./container -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
   <!-- Footer -->
+
+<br><br><br><br><br><br><br><br>
 <div class="footer" align="center">
         Copyright &copy; Desenvolvimento Web 2017.2
-    </div>
-	
+</div>	
 
 
 	
