@@ -18,5 +18,5 @@ footer p{
 
 .backhisto{
 	background: url('img/backhisto.jpg')no-repeat center center fixed;
-	position:absolute;
+	position:relative;
 }
