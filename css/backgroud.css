@@ -17,6 +17,6 @@ footer p{
 }
 
 .backhisto{
-	background: url('img/backhisto.jpg')no-repeat center center fixed;
-	padding-top:25px;
+	background: url('img/backhisto.jpg')no-repeat center;
+	
 }
