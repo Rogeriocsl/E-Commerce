@@ -16,3 +16,6 @@ footer p{
 	color: white;
 }
 
+.backhisto{
+	background: url('img/backhisto.jpg')no-repeat center center fixed;
+}
