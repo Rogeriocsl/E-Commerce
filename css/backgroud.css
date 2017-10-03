@@ -3,7 +3,7 @@
 
 body{
 	position: relative;
-	background: url('img/back3.jpg')no-repeat center center fixed;
+	background-color: #007F8F;
 	background-size: cover;
 	font-size: 15px;
   	color: #666;

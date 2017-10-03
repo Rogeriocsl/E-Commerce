@@ -23,7 +23,7 @@ a { text-decoration: none; }
 .nav-fostrap {
   display: block;
   margin-bottom: 15px 0;
-  background: #545454;
+  background: #00C4DB;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -80,7 +80,7 @@ a { text-decoration: none; }
   position: absolute;
   display: none;
   width: 200px;
-  background: #545454;
+  background: #00C4DB;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -ms-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -108,13 +108,13 @@ a { text-decoration: none; }
 .nav-fostrap li ul.dropdown li:last-child a { border-bottom: none; }
 
 .nav-fostrap li:hover a {
-  background: #545454;
+  background: #00C4DB;
   color: #fff !important;
 }
 
 .nav-fostrap li:first-child:hover a { border-radius: 3px 0 0 3px; }
 
-.nav-fostrap li ul.dropdown li:hover a { background: #545454; z-index: 1}
+.nav-fostrap li ul.dropdown li:hover a { background: #00C4DB; z-index: 1}
 
 .nav-fostrap li ul.dropdown li:first-child:hover a { border-radius: 0; }
 
@@ -191,7 +191,7 @@ a { text-decoration: none; }
   position: absolute;
   top: 0px;
   left: 0px;
-  background: #545454;
+  background: #00C4DB;
   padding: 12px 0 0 10px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -240,13 +240,13 @@ a { text-decoration: none; }
 .nav-fostrap li ul.dropdown { position: relative; }
 
 .nav-fostrap li ul.dropdown li a {
-  background: #545454 !important;
+  background: #00C4DB !important;
   border-bottom: none;
   color: #fff !important;
 }
 
 .nav-fostrap li:hover a {
-  background: #545454;
+  background: #00C4DB;
   color: #fff !important;
 }
 
