@@ -1,7 +1,7 @@
-#Site E commerce
+# Site E Commerce
 
-###Front End
+Desenvolvido na cadeira Desenvolvimento web.
 
-#Tecnologias utilizadas
+## Front End
 
 * [Bootstrap 3]
